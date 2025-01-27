@@ -57,6 +57,15 @@
                     some code
             
             here, x and f() are attributes & x is static variable
+            
+
+            ramesh(noun).running(verb)
+    
+            - here, ramesh is noun which is work as object & running is verb which is work as action it also known as function
+
+            - this function is known as methods
+
+            - ramesh(object) can use those function(method) which is include in class
 
 
 #### what is objcet?
@@ -94,21 +103,11 @@
 
     - the variable which is include in class object called class object variable (static variable) & which is include in instance object called instance variable
 
-### Encapsulation: 
 
-- it's an act of combining properties and methods related same object is known as Encapsulation. 
 
-- Class is a way to implement encapsulation
 
-- example: 
 
-        ramesh(noun).running(verb)
-    
-    - here, ramesh is noun which is work as object & running is verb which is work as action it also known as function
 
-    - this function is known as methods
-
-    - ramesh(object) can use those function(method) which is include in class
 
 #### __init__() method:
 
@@ -155,6 +154,8 @@
 1. instance method
 
         instance_object.method_name()
+
+        
 2. class method
   
         class_name.method_name()
@@ -247,7 +248,7 @@
 
 ### Polymorphism
 - Polymorphism: many functions
-- Polymorphism means One name different actions
+- Polymorphism means One name(function) different actions
 #### Duck Typing
 - Driver is a function who is driving the car and running cars.. so it is the example of polymorphism
 a driver can use or run multiple cars means different actions and forms but same function
@@ -359,3 +360,18 @@ situations
 - You can also overload for subtraction , multiplication , power , division etc.
 • Operator Overloading also works well for comparison operators and
 assignment operators.
+
+### Abstraction
+- eta class er vetorer data and method k class er baire theke obanchito access hote surokkha prodan kore.
+
+### Encapsulation: 
+- er meaning goponiota. onno kono object theke kono class er data lukano ba direct use theke biroto rakha ee encapsulation. orthat kono class er data ba method k private kore rakhar prokriya ee encapsulation.
+
+### Message Passing 
+- programmer proyojone object er moddhe porospor call korar prokriya k message passing bole
+
+### Dynamic Binding 
+- je prokriyangsho gulo dynamic reference er vittite program nirbaher somoy upojukto class er object select er maddhome shothik method select kora hoy ba ek method theke onno method a sthanantor kora hoy take dynamic binding bole.
+
+### Open Recursion
+- kono method nijei nije ke call korle take recursion bole. recursion use korar permit dey
