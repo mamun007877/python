@@ -1,6 +1,8 @@
 # Functions
 - A function is a piece of code which performs a specific task
+
 - It is used to reduce the repetition of the code hence reducing the size of the code, Less chances of making mistakes in the code
+
 - Functions make the task easy for the programmers as each programmer in a team can be given a specific task( function ) and at the end we can combine these task together to make single application.
 ## Some points to remember are :
 - Program is a general term
@@ -25,21 +27,32 @@ task
 
 ## How to write a function
 - We can write a function by using the keyword def followed by a function name.
+
 - The function name is user define and it is suggested to take a meaningful name while defining
 a function
+
 - The rules for defining a function is same as giving variable names
+
 - Within the ( ) you can pass parameters to a function these Parameter are called “Formal
 parameter”
+
 - Parameters are called input to a function , a function can take multiple Parameter.
+
 - Parameters can be of any datatype
+
 - Returning values of the statements is Called “output”
+
 - You can call a function by using the function name and pass parameter in ( ) , these Parameter
 are called “Actual parameter”
+
 - The actual parameter values are copied into formal parameter which acts as input to a
 function they are copied in the same position / order
+
 - When you call a functioning a result is returned you should place that result into another
 variable (or) print it directly
+
 - If you don’t write return in function it'll return NONE
+
 - So, every function returns whether you write it or not.
 ### Syntax :
     def fun_name ( par1 , par2, par3 ) : //Formal parameter
